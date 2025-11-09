@@ -12,8 +12,6 @@ spec:
       sourceRef:
         kind: GitRepository
         name: 5-demo-source-git-bb-app
-  install:
-    createNamespace: true
   interval: 20s
   storageNamespace: 5-demo
   targetNamespace: 5-demo
