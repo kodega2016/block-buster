@@ -8,4 +8,4 @@ spec:
   interval: 10s
   ref:
     branch: 5-demo
-  url: https://github.com/kodega/2016/bb-app-source
+  url: https://github.com/kodega2016/bb-app-source
