@@ -28,7 +28,7 @@ spec:
       name: 5-demo
     replicaCount: 2
     service:
-      NodePort: 30005
+      nodePort: 30005
       port: 80
       targetPort: 80
       type: NodePort
