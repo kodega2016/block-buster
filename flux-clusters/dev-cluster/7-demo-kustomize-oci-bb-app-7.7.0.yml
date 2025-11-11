@@ -7,13 +7,11 @@ metadata:
 spec:
   dependsOn:
   - name: infra-database-kustomize-git-mysql
-  - name: infra-database-kustomize-git-mysql
   healthChecks:
   - kind: Deployment
     name: block-buster-deployment
     namespace: 7-demo
   interval: 10s
-  path: ./manifests
   prune: false
   sourceRef:
     kind: OCIRepository
