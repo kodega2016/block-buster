@@ -13,7 +13,7 @@ spec:
     name: block-buster-deployment
     namespace: 7-demo
   interval: 10s
-  path: ./
+  path: ./7.7.0/manifests
   prune: false
   sourceRef:
     kind: OCIRepository
