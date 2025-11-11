@@ -12,6 +12,7 @@ spec:
     name: block-buster-deployment
     namespace: 7-demo
   interval: 10s
+  path: "./"
   prune: false
   sourceRef:
     kind: OCIRepository
