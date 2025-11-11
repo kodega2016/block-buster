@@ -6,7 +6,7 @@ metadata:
   namespace: flux-system
 spec:
   imageRepositoryRef:
-    name: 8-demo-repo-bb-app
+    name: 8-demo-image-repo-bb-app
   policy:
     semver:
       range: 7.8.x
